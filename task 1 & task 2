@@ -1,0 +1,107 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dcc28360-7418-4416-a74f-1eae8955633e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "0d873f02-3fa9-49ae-9557-237afe2f8571",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the first number:  5\n",
+      "enter the second number:  10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "addition of two digits are : 15\n",
+      "subtraction of two digits are : -5\n",
+      "multiplication of two digits are : 50\n",
+      "deletion of two digits are : 50\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter the first number: \"))\n",
+    "b=int(input(\"enter the second number: \"))\n",
+    "c=a+b\n",
+    "print(\"addition of two digits are :\", c)\n",
+    "d=a-b\n",
+    "print(\"subtraction of two digits are :\", d)\n",
+    "e=a*b\n",
+    "print(\"multiplication of two digits are :\", e)\n",
+    "f=a*b\n",
+    "print(\"deletion of two digits are :\", f)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "7576fb44-2801-4bd9-b140-b3f421b29b18",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the first name:  anurag\n",
+      "enter the second name:   patel\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello anurag patel welcome to python program\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=str(input(\"enter the first name: \"))\n",
+    "b=str(input(\"enter the second name: \"))\n",
+    "print(\"hello\" ,a+b, \"welcome to python program\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "daf49ff1-dee9-4266-9b46-88a5d33c7522",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
